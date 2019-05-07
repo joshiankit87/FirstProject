@@ -6,6 +6,7 @@ portion_down_payment = 0.25
 current_saving = 0.0
 monthly_salary = annual_salary / 12
 monthly_contribution = monthly_salary * portion_saved
+
 months = 0
 while 1:
     if current_saving >= total_cost * portion_down_payment:
